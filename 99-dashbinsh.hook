@@ -1,3 +1,8 @@
+# path:       /home/klassiker/.local/share/repos/pacman-hooks/99-dashbinsh.hook
+# author:     klassiker [mrdotx]
+# github:     https://github.com/mrdotx/pacman-hooks
+# date:       2020-06-26T20:37:01+0200
+
 [Trigger]
 Type = Package
 Operation = Install
