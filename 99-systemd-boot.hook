@@ -1,7 +1,7 @@
-# path:       /home/klassiker/.local/share/repos/pacman-hooks/99-systemd-boot.hook
-# author:     klassiker [mrdotx]
-# github:     https://github.com/mrdotx/pacman-hooks
-# date:       2020-06-26T20:39:30+0200
+# path:   /home/klassiker/.local/share/repos/pacman-hooks/99-systemd-boot.hook
+# author: klassiker [mrdotx]
+# github: https://github.com/mrdotx/pacman-hooks
+# date:   2021-01-15T13:39:18+0100
 
 [Trigger]
 Type = Package
