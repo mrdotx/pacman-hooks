@@ -1,0 +1,14 @@
+# path:   /home/klassiker/.local/share/repos/pacman-hooks/99-ventoy.hook
+# author: klassiker [mrdotx]
+# github: https://github.com/mrdotx/pacman-hooks
+# date:   2021-02-28T21:07:42+0100
+
+[Trigger]
+Type = Package
+Operation = Upgrade
+Target = ventoy
+
+[Action]
+Description = Set shebang to bash in Ventoy shell scripts
+When = PostTransaction
+Exec = /usr/bin/sed -i 's/\#\!\/bin\/sh/\#\!\/bin\/bash/g' /opt/ventoy/CreatePersistentImg.sh /opt/ventoy/Ventoy2Disk.sh /opt/ventoy/VentoyWeb.sh /opt/ventoy/tool/ventoy_lib.sh /opt/ventoy/tool/VentoyWorker.sh
