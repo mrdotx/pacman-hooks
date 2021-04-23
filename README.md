@@ -10,3 +10,7 @@
 ## installation
 
 - copy rules to folder /etc/pacman.d/hooks
+
+## related projects
+
+- [efistub](https://github.com/mrdotx/efistub)
