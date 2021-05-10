@@ -1,13 +1,17 @@
 # path:   /home/klassiker/.local/share/repos/pacman-hooks/99-efistub.hook
 # author: klassiker [mrdotx]
 # github: https://github.com/mrdotx/pacman-hooks
-# date:   2021-05-06T12:31:29+0200
+# date:   2021-05-10T17:52:44+0200
 
 [Trigger]
 Type = Package
 Operation = Install
 Operation = Upgrade
 Target = linux-zen-versioned-bin
+Target = linux-ck-skylake
+Target = linux513
+Target = linux512
+Target = linux510
 
 [Action]
 Description = Updating UEFI...
